@@ -1,0 +1,352 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    background-image: url(../imagens/iPhone\ 14\ &\ 15\ Pro\ Max\ -\ 1.png);
+    background-size: cover;
+    height: 693px;
+    position: relative;
+    z-index: 1;
+}
+/* colocando apenas a imagem de fundo com opacidade */
+header::after{
+    content:'';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    opacity: .7;
+    z-index: -1;
+}
+div.topo {
+    display: flex;
+    
+}
+div.topo img{
+    height: 32px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+div.topo span{
+    font-size: 20px;
+    color: #F47521;
+    font-family: 'Inika', serif;
+    margin-top: 10px;
+}
+div.topo nav a{
+    display: none;
+}
+div.topo nav button{
+    margin-left: 80px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    padding: 5px 22px 5px 22px;
+    border-color: white;
+    cursor:pointer;
+}
+div.topo nav button:hover{
+    opacity: .8;
+}
+@media(max-width:321px){
+    div.topo nav button{
+        margin-left:40px;
+    }
+}
+div.title_main{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    margin-top:48px;
+    font-family:'lato' ;
+}
+div.title_main h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom:30px;
+}
+div.title_main button{
+    background-color:#F47521;
+    color:black;
+    padding:10px 15px 10px 15px;
+    border:none;
+    font-weight:bold;
+    margin-bottom:23px;
+    cursor:pointer;
+}
+div.title_main button:hover{
+    opacity:.9;
+}
+div.title_main button:active{
+    font-weight:bolder;
+}
+
+div.img_main{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+div.img_main img{
+    height:48px;
+    width: 43px;
+    margin-bottom:15px;
+}
+div.img_main p{
+    font-size:15px;
+    margin-bottom:30px;
+    width: 279px;
+    font-family:'lato' ;
+    font-weight: bold;
+}
+/* seção main */
+main{
+    background-color: white;
+    color: black;
+}
+section div.div_main{
+    text-align: center;
+    width:100%;
+}
+section div.div_main img{
+    width: 100%;
+}
+section div.div_main h2{
+    padding-top:15px;
+    font-size: 2rem;
+    font-family: 'Lato';
+    padding-bottom: 10px;
+}
+section div.div_main p{
+    color: #9FA0A0;
+    font-family: 'lato';
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+
+}
+section div.div_main button,div.megafan button{
+    background-color:#F47521;
+    color:black;
+    padding:10px 15px 10px 15px;
+    border:none;
+    font-weight:bold;
+    margin-bottom:23px;
+    cursor:pointer;
+}
+section div.div_main button:hover{
+    opacity:.8;
+}
+/* catalogo */
+section.catalago h2{
+    font-size: 2rem;
+    font-family:'Lato';
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:15px;
+}
+section.catalago div{
+    display:flex;
+    gap:10px;
+    align-items:center;
+    justify-content:center;
+}
+section.catalago div img{
+    width: 63px;
+    height: 96px;
+    
+}
+@media(max-width:321px){
+    section.catalago div{
+        display:flex;
+        gap:10px;
+    }
+    section.catalago div img{
+        width: 53px;
+        height: 76px;
+        padding-left:10px;
+        
+    }
+}
+/* seção premium */
+section.premium h2{
+    font-size: 2rem;
+    font-family:'Lato';
+    text-align:center;
+    padding-top:10px;
+}
+section.premium p{
+    color: #9FA0A0;
+    font-size: 1.5rem;
+    font-family:'Lato';
+    text-align:center;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+section.premium div.assinaturas{
+    display:flex;
+    flex-direction:column;
+}
+  div.megafan,div.fan,div.megafan_ano{
+    text-align: center;
+ } 
+ div.megafan{
+    margin-top: 30px;
+    border-top: 15px solid #2ABDBB;
+    border-left:3px solid  #2ABDBB;
+    border-right:3px solid  #2ABDBB;
+    border-bottom:3px solid  #2ABDBB;
+    width:320px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+ }
+ div.fan,div.megafan_ano{
+    margin-top: 30px;
+    border-top: 3px solid #9FA0A0;
+    border-left:3px solid  #9FA0A0;
+    border-right:3px solid  #9FA0A0;
+    border-bottom:3px solid  #9FA0A0;
+    width:320px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+ }
+div.megafan div.assinatura_inicio img.coroa,div.fan div.assinatura_inicio img.coroa,div.megafan_ano div.assinatura_inicio img.coroa{
+    height: 56px;
+    position: absolute;
+    top: 12%;
+    left: 41%;
+}
+div.megafan div.assinatura_inicio,div.fan div.assinatura_inicio,div.megafan_ano div.assinatura_inicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:0;
+    position: relative;
+}
+div.megafan div.background,div.fan div.background,div.megafan_ano div.background{
+    background-image: url(../imagens/Ellipse_moblie.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5px;
+    height: 107px;
+    width:98px;
+    margin-bottom: 5px;
+}
+div.megafan div.assinatura_inicio span{
+    position: absolute;
+    top: -4.9%;
+    color: white;
+    font-family: 'Lato';
+}
+div.megafan div.assinatura_inicio h3,div.fan div.assinatura_inicio h3,div.megafan_ano div.assinatura_inicio h3{
+    font-size:1.8rem;
+    font-family: 'Lato';
+    padding-bottom: 5px;
+}
+div.megafan div.assinatura_final,div.fan div.assinatura_final,div.megafan_ano div.assinatura_final {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-start;
+    
+}
+div.megafan div.assinatura_final div.assinatura_opcoes,div.fan div.assinatura_final div.assinatura_opcoes,div.megafan_ano div.assinatura_final div.assinatura_opcoes {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+div.megafan div.assinatura_final div.assinatura_opcoes img,div.fan div.assinatura_final div.assinatura_opcoes img,div.megafan_ano div.assinatura_final div.assinatura_opcoes img{
+    height:51px;
+    
+}
+div.megafan div.assinatura_final div.assinatura_opcoes img.x,div.fan div.assinatura_final div.assinatura_opcoes img.x,div.megafan_ano div.assinatura_final div.assinatura_opcoes img.x{
+    height:40px;
+}
+div.megafan  div.assinatura_final div.assinatura_opcoes span,div.fan  div.assinatura_final div.assinatura_opcoes span,div.megafan_ano div.assinatura_final div.assinatura_opcoes span{
+    font-family: 'Lato';
+}
+div.megafan div.assinatura_final div.assinatura_opcoes span.descontos,div.fan div.assinatura_final div.assinatura_opcoes span.descontos,div.megafan_ano div.assinatura_final div.assinatura_opcoes span.descontos{
+    color: #9FA0A0;
+}
+
+div.fan div.assinatura_inicio button,div.megafan_ano div.assinatura_inicio button{
+    background-color:transparent;
+    color:#F47521;
+    border-color:#F47521;
+    padding:10px 15px 10px 15px;
+    cursor: pointer;
+}
+/* final */
+section.final{
+    font-family: 'Lato';
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 310px;
+    margin: auto;
+    border-bottom: 4px solid #9FA0A0;
+    padding-bottom: 10px;
+}
+section.final div.perguntas{
+    display: flex;
+    flex-direction: column;
+}
+section.final h2{
+    font-size: 2rem;
+    padding: 10px 0 10px 0;
+}
+section.final p.cinza{
+    color: #9FA0A0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+section.final p{
+    color: black;
+    padding-bottom: 10px;
+}
+section.final span{
+    color:#F47521;
+    padding-bottom: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+/* footer */
+footer{
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato';
+    text-align: center;
+}
+footer select{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+}

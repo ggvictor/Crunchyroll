@@ -1,0 +1,255 @@
+@media(min-width:1200px){
+    header{
+        background-image: url(../imagens/Desktop\ -\ 1\ \(1\).png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 830px;
+    }
+    div.topo img{
+        height: 86px;
+    }
+    div.topo span{
+        font-size: 4rem;
+        margin-top: 30px;
+        padding-left: 5px;
+    }
+    div.topo nav a{
+        font-size: 3rem;
+        margin-top: 10px;
+        padding-right: 5px;
+    }
+    div.topo nav button{
+        font-size: 3rem;
+    }
+    div.title_main h1{
+        font-size: 5.4rem;
+    }
+    div.title_main button{
+        font-size: 2.5rem;
+    }
+    div.img_main img{
+        height:109px;
+        width: 109px;
+        margin-bottom:15px;
+    }
+    div.img{
+        margin-top: 70px;
+        justify-content: space-around;
+    }
+    div.img_main p{
+        font-size:2.5rem;
+        width:414px;
+        padding-left: 40px;
+    }
+      /* main da pagina */
+      section div.div_main h2{
+        font-size: 3.4rem;
+    }
+    section div.div_main p{
+        font-size: 2.7rem;
+        width:630px;
+        margin:auto;
+    
+    }
+    section div.div_main button{
+        font-size:2.7rem;
+        padding:12px 19px 12px 19px;
+        margin-top:30px;
+    }
+    section div.div_main img{
+        width: 100%;
+    }
+    /* catalogo */
+    section.catalago h2{
+        font-size: 3.4rem;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    section.catalago div img{
+        width: 225px;
+        height: 317px;
+    }
+    /* seção premium */
+    section.premium h2{
+        font-size: 3.4rem;
+        font-family:'Lato';
+        text-align:center;
+        padding-top:10px;
+    }
+    section.premium p{
+        color: #9FA0A0;
+        font-size: 2.7rem;
+        font-family:'Lato';
+        text-align:center;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    section.premium div.assinaturas{
+        display:flex;
+        flex-direction:row;
+    }
+    div.megafan,div.fan,div.megafan_ano{
+        text-align: center;
+    } 
+    div.megafan{
+        margin-top: 30px;
+        border-top: 25px solid #2ABDBB;
+        border-left:3px solid  #2ABDBB;
+        border-right:3px solid  #2ABDBB;
+        border-bottom:3px solid  #2ABDBB;
+        width:400px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.fan,div.megafan_ano{
+        margin-top: 30px;
+        border-top: 3px solid #9FA0A0;
+        border-left:3px solid  #9FA0A0;
+        border-right:3px solid  #9FA0A0;
+        border-bottom:3px solid  #9FA0A0;
+        width:400px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.megafan div.assinatura_inicio img.coroa,div.fan div.assinatura_inicio img.coroa,div.megafan_ano div.assinatura_inicio img.coroa{
+        height: 56px;
+        position: absolute;
+        top: 12%;
+        left: 42%;
+    }
+    div.fan div.assinatura_inicio ,div.megafan_ano div.assinatura_inicio, div.megafan div.assinatura_inicio{
+        margin-right: 40px;
+        border:none;
+        
+    }
+    div.megafan div.assinatura_inicio,div.fan div.assinatura_inicio,div.megafan_ano div.assinatura_inicio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top:0;
+        position: relative;
+    }
+    div.megafan div.background,div.fan div.background,div.megafan_ano div.background{
+        background-image: url(../imagens/Ellipse_moblie.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5px;
+        height: 107px;
+        width:98px;
+        margin-bottom: 5px;
+    }
+    div.megafan div.assinatura_inicio span{
+        position: absolute;
+        top: -7%;
+        color: white;
+        font-family: 'Lato';
+        font-size: 1.5rem;
+    }
+    div.megafan div.assinatura_inicio h3,div.fan div.assinatura_inicio h3,div.megafan_ano div.assinatura_inicio h3{
+        font-size:1.8rem;
+        font-family: 'Lato';
+        padding-bottom: 5px;
+    }
+    div.megafan div.assinatura_final,div.fan div.assinatura_final,div.megafan_ano div.assinatura_final {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes,div.fan div.assinatura_final div.assinatura_opcoes,div.megafan_ano div.assinatura_final div.assinatura_opcoes {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes img,div.fan div.assinatura_final div.assinatura_opcoes img,div.megafan_ano div.assinatura_final div.assinatura_opcoes img{
+        height:51px;
+        
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes img.x,div.fan div.assinatura_final div.assinatura_opcoes img.x,div.megafan_ano div.assinatura_final div.assinatura_opcoes img.x{
+        height:40px;
+    }
+    div.megafan  div.assinatura_final div.assinatura_opcoes span,div.fan  div.assinatura_final div.assinatura_opcoes span,div.megafan_ano div.assinatura_final div.assinatura_opcoes span{
+        font-family: 'Lato';
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes span.descontos,div.fan div.assinatura_final div.assinatura_opcoes span.descontos,div.megafan_ano div.assinatura_final div.assinatura_opcoes span.descontos{
+        color: #9FA0A0;
+    }
+
+    div.fan div.assinatura_inicio button,div.megafan_ano div.assinatura_inicio button{
+        background-color:transparent;
+        color:#F47521;
+        border-color:#F47521;
+        padding:10px 15px 10px 15px;
+    }
+    section.final{
+        font-family: 'Lato';
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 4px solid #9FA0A0;
+        width: 1200px;
+        margin: auto;
+        padding-bottom: 10px;
+        font-size: 2rem;
+    }
+    section.final div.perguntas{
+        display: flex;
+        flex-direction: column;
+    }
+    section.final h2{
+        font-size: 2.5rem;
+    }
+    section.final p.cinza{
+        color: #9FA0A0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    section.final p{
+        color: black;
+        padding-bottom: 10px;
+    }
+    section.final span{
+        color:#F47521;
+        padding-bottom: 10px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+     /* footer */
+     footer{
+        padding-top: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Lato';
+        font-size: 2.5rem;
+        justify-content: space-between;
+        width: 100%;
+        }
+        footer span{
+            padding-left: 10px;
+        }
+        footer div.select{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end !important;
+          
+          
+        }
+        footer select#idioma{
+            margin-top: 10px;
+             margin: none;
+            text-align: center;
+        
+        }
+}
+ 

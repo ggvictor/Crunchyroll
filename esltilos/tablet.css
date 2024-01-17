@@ -1,0 +1,292 @@
+@media(min-width:760px){
+    header{
+        background-image: url(../imagens/iPad.png);
+        background-size: cover;
+        height: 502px;
+    }
+    div.topo img{
+        height: 43px;
+    }
+    div.topo span{
+        font-size: 30px;
+        color: #F47521;
+    }
+    div.topo nav{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    div.topo nav a{
+        display: inline;
+        color: white;
+        font-weight: bolder;
+        font-size: 2rem;
+        margin-top: 10px;
+        padding-right: 5px;
+        font-family: 'Lato';
+    }
+    div.topo nav a:hover{
+        opacity: .8;
+        text-decoration: underline;
+    }
+    div.topo nav button{
+        margin-right: 5px;
+        margin-top: 10px;
+        font-size: 2rem;
+        padding: 5px 22px 5px 22px;
+    }
+    div.title_main h1{
+        font-size: 3.4rem;
+    }
+    div.title_main button{
+        font-size: 2rem;
+    }
+    div.img{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    div.img_main {
+        margin-top: 20px;
+    }
+
+    div.img_main img{
+        height:61px;
+        width: 56px;
+        margin-bottom:15px;
+    }
+    div.img_main p{
+        font-size:15px;
+        margin-bottom:30px;
+        margin-right: 10px;
+        width: 239px;
+        font-family:'lato' ;
+        font-weight: bold;
+        padding-left: 30px;
+    }
+    /* main da pagina */
+    section div.div_main h2{
+        font-size: 2.5rem;
+    }
+    section div.div_main p{
+        font-size: 2rem;
+        width:630px;
+        margin:auto;
+    
+    }
+    section div.div_main button{
+        font-size:2rem;
+        padding:12px 19px 12px 19px;
+        border:none;
+        font-weight:bold;
+        margin-bottom:23px;
+    }
+    section div.div_main img{
+        height:420px;
+        width: 100%;
+    }
+    /* catalogo */
+    section.catalago h2{
+        font-size: 2.5rem;
+        padding-top:20px;
+        padding-bottom:20px;
+    }
+    section.catalago div img{
+        width: 130px;
+        height: 183px;
+    }
+    section.catalago div.catalago_div > div{
+        padding-right: 20px;
+        padding-bottom: 40px;
+    }
+    section.catalago div.catalago_div > div#great_div{
+        padding-right: 0;
+    }
+    /* seção premium */
+    section.premium h2{
+        font-size: 2.5rem;
+        font-family:'Lato';
+        text-align:center;
+        padding-top:10px;
+    }
+    section.premium p{
+        color: #9FA0A0;
+        font-size: 2rem;
+        font-family:'Lato';
+        text-align:center;
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    section.premium div.assinaturas{
+        display:flex;
+        flex-direction:column;
+    }
+    div.megafan,div.fan,div.megafan_ano{
+        text-align: center;
+    } 
+    div.megafan{
+        margin-top: 30px;
+        border-top: 15px solid #2ABDBB;
+        border-left:3px solid  #2ABDBB;
+        border-right:3px solid  #2ABDBB;
+        border-bottom:3px solid  #2ABDBB;
+        width:717px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+    }
+    div.fan,div.megafan_ano{
+        margin-top: 30px;
+        border-top: 3px solid #9FA0A0;
+        border-left:3px solid  #9FA0A0;
+        border-right:3px solid  #9FA0A0;
+        border-bottom:3px solid  #9FA0A0;
+        width:717px;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        display:flex;
+        flex-direction: row;
+    }
+    div.megafan div.assinatura_inicio img.coroa{
+        position: absolute;
+        top: 11%;
+        left: 35%;
+    }
+    div.fan div.assinatura_inicio img.coroa{
+        position: absolute;
+        top: 18%;
+        left: 35%;
+    }
+    div.fan div.assinatura_inicio ,div.megafan_ano div.assinatura_inicio, div.megafan div.assinatura_inicio{
+        margin-right: 40px;
+        border-right: 1px solid #9FA0A0;
+        
+    }
+  div.megafan_ano div.assinatura_inicio img.coroa{
+        height: 56px;
+        position: absolute;
+        top: 14%;
+        left: 35%;
+    }
+    div.megafan div.assinatura_inicio,div.fan div.assinatura_inicio,div.megafan_ano div.assinatura_inicio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top:0;
+        position: relative;
+    }
+    div.megafan div.background,div.fan div.background,div.megafan_ano div.background{
+        background-image: url(../imagens/Ellipse_moblie.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 5px;
+        height: 107px;
+        width:98px;
+        margin-bottom: 5px;
+    }
+    div.megafan div.assinatura_inicio span{
+        position: absolute;
+        top: -4.9%;
+        color: white;
+        font-family: 'Lato';
+    }
+    div.megafan div.assinatura_inicio h3,div.fan div.assinatura_inicio h3,div.megafan_ano div.assinatura_inicio h3{
+        font-size:1.8rem;
+        font-family: 'Lato';
+        padding-bottom: 5px;
+    }
+    div.megafan div.assinatura_final,div.fan div.assinatura_final,div.megafan_ano div.assinatura_final {
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:flex-start;
+        
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes,div.fan div.assinatura_final div.assinatura_opcoes,div.megafan_ano div.assinatura_final div.assinatura_opcoes {
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes img,div.fan div.assinatura_final div.assinatura_opcoes img,div.megafan_ano div.assinatura_final div.assinatura_opcoes img{
+        height:51px;
+        
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes img.x,div.fan div.assinatura_final div.assinatura_opcoes img.x,div.megafan_ano div.assinatura_final div.assinatura_opcoes img.x{
+        height:40px;
+    }
+    div.megafan  div.assinatura_final div.assinatura_opcoes span,div.fan  div.assinatura_final div.assinatura_opcoes span,div.megafan_ano div.assinatura_final div.assinatura_opcoes span{
+        font-family: 'Lato';
+    }
+    div.megafan div.assinatura_final div.assinatura_opcoes span.descontos,div.fan div.assinatura_final div.assinatura_opcoes span.descontos,div.megafan_ano div.assinatura_final div.assinatura_opcoes span.descontos{
+        color: #9FA0A0;
+    }
+
+    div.fan div.assinatura_inicio button,div.megafan_ano div.assinatura_inicio button{
+        background-color:transparent;
+        color:#F47521;
+        border-color:#F47521;
+        padding:10px 15px 10px 15px;
+    }
+        /* final */
+    section.final{
+        font-family: 'Lato';
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-bottom: 4px solid #9FA0A0;
+        width: 710px;
+        padding-bottom: 10px;
+        font-size: 2rem;
+        margin: auto;
+    }
+    section.final div.perguntas{
+        display: flex;
+        flex-direction: column;
+    }
+    section.final h2{
+        font-size: 2.5rem;
+    }
+    section.final p.cinza{
+        color: #9FA0A0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    section.final p{
+        color: black;
+        padding-bottom: 10px;
+    }
+    section.final span{
+        color:#F47521;
+        padding-bottom: 10px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
+    /* footer */
+    footer{
+        padding-top: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        font-family: 'Lato';
+        text-align: center;
+        font-size: 2rem;
+    }
+    footer span{
+        padding-left: 10px;
+    }
+    footer select{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 300px;
+        text-align: center;
+        margin: auto;
+    }
+}
